@@ -3,6 +3,7 @@ import axios from 'axios';
 import Grid from '@material-ui/core/Grid';
 
 import Reibun from '../components/Reibun';
+import Profile from '../components/Profile';
 
 export default function Home() {
 
@@ -27,7 +28,7 @@ export default function Home() {
                 {recentReibunMarkup}
             </Grid>
             <Grid item sm={4} xs={12}>
-                <p>Profile...</p>
+                <Profile />
             </Grid>
         </Grid>
     )
